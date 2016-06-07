@@ -145,7 +145,7 @@ footer {
     background-color: #181818;
 }
 .navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
-    border-color: #89cff0;
+    border-color: #03a9f4;
 }
 
 .navbar-default .nav > li>a,
@@ -164,20 +164,20 @@ footer {
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
     color: #d3d3d3 !important;
-    background-color: #89cff0;
+    background-color: #03a9f4;
 }
 
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover
 {
-    background-color: #89cff0;
+    background-color: #03a9f4;
 }
 
 
 @media(min-width:768px) {
     .navbar-default {
         border-color: transparent;
-        background-color: #89cff0;
+        background-color: #03a9f4;
         min-height: 60px;
     }
 
