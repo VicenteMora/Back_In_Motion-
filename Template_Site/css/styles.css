@@ -4,7 +4,7 @@ Landing Zero theme - A free landing page theme from BootstrapZero
 http://www.bootstrapzero.com
 
 */
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700);
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
 
@@ -75,7 +75,10 @@ p {
 }
 
 .cursive {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: 700;
+    border-style: solid;
+    background-color: rgba(0,0,0,0.3);
     text-transform: none;
 }
 
@@ -263,7 +266,7 @@ header .header-content .inner h1 {
 
 header .header-content .inner p {
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 300;
     color: rgba(255,255,255,0.7);
 }
@@ -312,7 +315,7 @@ footer {
     }
 
     header .header-content .inner h1 {
-        font-size: 53px;
+        font-size: 85px;
     }
 
     header .header-content .inner p {
