@@ -1,3 +1,50 @@
+$(document).ready(function () {
+    $('#myCarousel').carousel({
+        interval: 10000
+    })
+    $('.fdi-Carousel .item').each(function () {
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));        
+
+        if (next.next().next().next().next().length > 0) { // 1-5
+            next.next().children(':first-child').clone().appendTo($(this));            
+            next.next().next().children(':first-child').clone().appendTo($(this));            
+            next.next().next().next().children(':first-child').clone().appendTo($(this));   
+            next.next().next().next().next().children(':first-child').clone().appendTo($(this));   
+        }
+        else if (next.next().next().next().length > 0) { // 6
+            next.next().children(':first-child').clone().appendTo($(this));            
+            next.next().next().children(':first-child').clone().appendTo($(this));            
+            next.next().next().next().children(':first-child').clone().appendTo($(this));   
+            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+     
+        }
+        else if (next.next().next().length > 0) { // 7
+            next.next().children(':first-child').clone().appendTo($(this));
+            next.next().next().children(':first-child').clone().appendTo($(this));
+            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+            $(this).siblings(':first').next().children(':first-child').clone().appendTo($(this));
+        }
+        else if (next.next().length > 0) { //8
+            next.next().children(':first-child').clone().appendTo($(this));
+            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+            $(this).siblings(':first').next().children(':first-child').clone().appendTo($(this));
+            $(this).siblings(':first').next().next().children(':first-child').clone().appendTo($(this));
+        }  
+        else { //done
+            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+            $(this).siblings(':first').next().children(':first-child').clone().appendTo($(this));
+            $(this).siblings(':first').next().next().children(':first-child').clone().appendTo($(this));    
+            $(this).siblings(':first').next().next().next().children(':first-child').clone().appendTo($(this));    
+            
+        }
+    });
+});
+
+
 (function($) {
     "use strict";
 
