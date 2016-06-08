@@ -538,7 +538,11 @@ img::-moz-selection {
 .onebyone-carosel .active.right { left: 16.66%; }
 .onebyone-carosel .next { left: 16.66%; }
 .onebyone-carosel .prev { left: -16.66%; }
-.item{
+.item {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+.spineBG {
+    background-image: url('../img/spineBG.jpg');
+    background-position: contain;
 }
