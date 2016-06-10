@@ -327,7 +327,8 @@ footer {
     
     section {
         min-height: 600px;
-        padding: 100px 0;
+        padding: 100px 0 0 0;
+
     }
 
 }
@@ -533,6 +534,9 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
+.carousel{
+    padding-top: 80px;
+}
 .carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
 .onebyone-carosel .active.left { left: -16.66%; }
 .onebyone-carosel .active.right { left: 16.66%; }
@@ -544,5 +548,9 @@ img::-moz-selection {
 }
 .spineBG {
     background-image: url('../img/spineBG.jpg');
-    background-position: contain;
+    background-position: cover;
+}
+.flatIcon {
+    width: 150px;
+    height: 150px;
 }
