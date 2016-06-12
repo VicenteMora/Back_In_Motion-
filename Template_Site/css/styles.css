@@ -91,7 +91,7 @@ p {
 }
 
 .modal-content {
-    background-image: url('../img/BackInMotionMap.jpg');
+    background-image: url('../img/blu_stripes_@2X.png');
     filter: opacity(.2);
     background-size:cover;
 
@@ -553,4 +553,7 @@ img::-moz-selection {
 .flatIcon {
     width: 150px;
     height: 150px;
+}
+.Bg3 {
+    background-image:url(../img/Bg4.jpg);
 }
