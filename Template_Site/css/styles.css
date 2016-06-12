@@ -167,6 +167,7 @@ footer {
 .navbar-default .nav>li.active>a:focus {
     color: #d3d3d3 !important;
     background-color: #03a9f4;
+    border-radius:50px;
 }
 
 .navbar-default .nav > li.active>a:hover,
