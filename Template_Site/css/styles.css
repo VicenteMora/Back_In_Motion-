@@ -558,3 +558,7 @@ img::-moz-selection {
 .Bg3 {
     background-image:url(../img/Bg4.jpg);
 }
+.map {
+    padding:0px;
+    
+}
