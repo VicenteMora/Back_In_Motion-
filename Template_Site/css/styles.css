@@ -137,7 +137,9 @@ footer {
     -moz-transition: padding .2s ease-in;
     transition: padding .2s ease-in;
 }
-
+.navbar-header > .navbar-brand > img {
+    display:inline;
+}
 .navbar-header > .navbar-brand:hover,
 .navbar-header > .navbar-brand:focus {
     color: #8b27b0;
@@ -560,5 +562,9 @@ img::-moz-selection {
 }
 .map {
     padding:0px;
-    
+
+}
+.iconSize {
+    max-width: 30px;
+    max-height: 30px;
 }

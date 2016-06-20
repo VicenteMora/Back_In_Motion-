@@ -79,3 +79,45 @@ $(document).ready(function () {
     });
 
 })(jQuery);
+function initMap() {
+        var mapDiv = document.getElementById('myMap');
+       var map = new google.maps.Map(mapDiv, {
+            center: {lng: -80.240, lat: 25.751},
+            scrollwheel: false,
+            zoom: 17
+        });
+       
+        map.set('styles', [
+  {
+    "featureType": "landscape.man_made",
+    "stylers": [
+      { "visibility": "on" },
+      { "invert_lightness": true },
+      { "color": "#bbbbbb" }
+    ]
+  },{
+    "featureType": "road.highway",
+    "stylers": [
+      { "visibility": "on" },
+      { "weight": 1.5 },
+      { "color": "#a2cd5a" },
+      { "saturation": 53 }
+    ]
+  },{
+    "featureType": "road.arterial",
+    "stylers": [
+      { "color": "#36648b" }
+    ]
+  },{
+    "featureType": "water",
+    "stylers": [
+      { "color": "#29abc4" }
+    ]
+  }
+    
+  
+]);
+      }
+
+  
+
