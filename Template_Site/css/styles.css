@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
 @import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lora:700|Trirong);
 
 html,
 body {
@@ -11,9 +12,9 @@ body {
 }
 
 body {
-    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Lora', serif;
     background-color: white;
-    color: #d3d3d3;
+    color: #8DB6CD;
     webkit-tap-highlight-color: #00688b;
 }
 
@@ -30,7 +31,7 @@ hr.light {
 }
 
 a {
-    color: #d3d3d3;
+    color: #8DB6CD;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -43,7 +44,7 @@ a:focus {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Trirong', serif;
 }
 
 p {
@@ -66,8 +67,8 @@ p {
 }
 
 .bg-dark {
-    color: #eee;
-    background-color: #00688B;
+    color: #000;
+    background-color: #CAFF42;
 }
 
 .cursive {
@@ -87,7 +88,7 @@ p {
 }
 
 .text-primary {
-    color: #d3d3d3;
+    color: #104E8B;
 }
 
 .modal-content {
@@ -119,7 +120,7 @@ footer {
 
 .navbar-default {
     border-color: rgba(35,35,35,.05);
-    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+    font-family: 'lora',serif;
     background-color: #00688b;
     -webkit-transition: all .4s;
     -moz-transition: all .4s;
