@@ -99,7 +99,7 @@ p {
 
 }
     p, h2, h5 {
-        color: black;
+        color: #000;
     }
 
 section {
@@ -489,14 +489,14 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-default .badge {
-    color: #fff;
+    color: #000;
     background-color: #00688b;
 }
 
 .btn.btn-primary {
-    background-color: transparent;
-    border:1px solid #f0f0f0;
-    border-color:#f0f0f0;
+    /*background-color: transparent;*/
+    border:1px solid #000;
+    border-color:#000;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -509,7 +509,7 @@ fieldset[disabled] .btn-default.active {
 .btn {
     border: 0;
     border-radius: 290px;
-    font-family: 'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Lora', serif;
 }
 
 .btn-xl {
