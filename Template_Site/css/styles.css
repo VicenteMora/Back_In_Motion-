@@ -99,7 +99,7 @@ p {
 
 }
     p, h2, h5 {
-        color: #000;
+        color: #fff;
     }
 
 section {
@@ -131,7 +131,7 @@ footer {
 }
 
 .navbar-header > .navbar-brand {
-    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Trirong', serif;
     color: #d3d3d3;
     padding: 15px;
     -webkit-transition: padding .2s ease-in;
@@ -568,4 +568,7 @@ img::-moz-selection {
 .iconSize {
     max-width: 30px;
     max-height: 30px;
+}
+.media-middle p {
+    color: black;
 }
