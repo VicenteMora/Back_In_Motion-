@@ -82,9 +82,18 @@ $(document).ready(function () {
 function initMap() {
         var mapDiv = document.getElementById('myMap');
        var map = new google.maps.Map(mapDiv, {
-            center: {lng: -80.240, lat: 25.751},
+            center: {lng: -80.23805, lat: 25.75155},
             scrollwheel: false,
             zoom: 17
+        });
+       var marker = new google.maps.Marker({
+            position: {lng: -80.23805,lat: 25.75155},
+            map: map,
+            title: 'Back In Motion',
+            icon: {
+                url: "img/Marker.png",
+                
+                }
         });
        
         map.set('styles', [
